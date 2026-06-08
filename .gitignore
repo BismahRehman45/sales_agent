@@ -1,0 +1,28 @@
+# IDE
+.idea/
+.vscode/
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environment variables
+.env
+
+credential.json
+
+# User-uploaded files (runtime)
+uploads/
+!uploads/.gitkeep
+
+# Celery Beat runtime artifacts
+celerybeat-schedule
+celerybeat-schedule-shm
+celerybeat-schedule-wal
